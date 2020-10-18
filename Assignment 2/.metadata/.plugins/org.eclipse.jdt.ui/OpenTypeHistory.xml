@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars{SWAffordance.java[SWAffordance" modifiers="1025" timestamp="1525664102991"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;edu.monash.fit2099.simulator.matter{Affordance.java[Affordance" modifiers="1025" timestamp="1525664102975"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;edu.monash.fit2099.simulator.matter{Action.java[Action" modifiers="1025" timestamp="1525664102968"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;edu.monash.fit2099.simulator.space{World.java[World" modifiers="1025" timestamp="1526816202952"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/C:\/Program Files\/Java\/jre1.8.0_161\/lib\/ext\/jfxrt.jar&lt;com.sun.javafx.scene.traversal(Direction.class[Direction" modifiers="16433" timestamp="1519453494838"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;edu.monash.fit2099.simulator.space{Direction.java[Direction" modifiers="513" timestamp="1525664102973"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.entities.actors.behaviors{Follow.java[Follow" modifiers="1" timestamp="1526800781542"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.actions{Take.java[Take" modifiers="1" timestamp="1525928383816"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.entities{Reservoir.java[Reservoir" modifiers="1" timestamp="1526979718300"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.entities{Blaster.java[Blaster" modifiers="1" timestamp="1525664102989"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars{SWActor.java[SWActor" modifiers="1025" timestamp="1526800781580"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.entities.actors{Droid.java[Droid" modifiers="1" timestamp="1526800781574"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.entities{LightSaber.java[LightSaber" modifiers="1" timestamp="1525923743312"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars{SWEntity.java[SWEntity" modifiers="1" timestamp="1526979718119"/>
+<typeInfo handle="=FIT2099_Assignment_Base_2018/src&lt;starwars.actions{Attack.java[Attack" modifiers="1" timestamp="1526979718231"/>
+</typeInfoHistroy>

@@ -1,0 +1,27 @@
+Task Allocation
+
+    Chak Hong Lai
+
+ 
+UML documentation (translating designation into texts)
+Producing external deliverable document
+Testing and reviewing of code
+Brainstorming of implementation 
+
+    Linh Le
+UMl diagram creation (Creating UML diagram to show new functions)
+Producing internal document
+Translating brainstormed solution into code
+Brainstorming of implementation
+
+
+
+Dates of deliverable test and review:
+
+Assignment 1: finishing the design and uploading the design before deadline
+Assignment 2: testing and review will be done after adding each new function to the system immediately. Then move on to the next function.
+Assignment 3: same as assignment 2
+
+I commit this agreement (Justin)
+
+I commit to this agreement (Linh)

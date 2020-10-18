@@ -1,0 +1,62 @@
+package starwars.actions;
+
+import edu.monash.fit2099.gridworld.Grid;
+import edu.monash.fit2099.simulator.space.Direction;
+import edu.monash.fit2099.simulator.userInterface.MessageRenderer;
+import starwars.SWAction;
+import starwars.SWActor;
+import starwars.SWAffordance;
+import starwars.SWEntityInterface;
+import starwars.SWLocation;
+import starwars.SWWorld;
+
+public class Thrown extends SWAffordance {
+	
+	private SWActor actor;
+	private SWWorld world;
+	
+	public Thrown (SWEntityInterface theTarget, MessageRenderer m, SWActor newActor, SWWorld newWorld) {
+		super(theTarget, m);	
+		priority = 1;
+		actor = newActor;
+		world = newWorld;
+	}
+
+	@Override
+	public boolean canDo(SWActor a) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	public Direction getDirection() {
+		//get the current actor location first
+		SWLocation actorLocation = world.getEntityManager().whereIs(actor);
+		//get all the neighbor coordinate 
+		for(Grid.CompassBearing d1 : Grid.CompassBearing.values())
+		{
+			SWLocation explosionInner = (SWLocation)actorLocation.getNeighbour(d1); //get the inner explosion area location
+			for (Grid.CompassBearing d2 : Grid.CompassBearing.values())
+			{
+				SWLocation explosionOuter = (SWLocation)explosionInner.getNeighbour(d2);
+				return d2;
+			}
+			return d1;		
+		}
+		return null;
+		
+	}
+
+	@Override
+	public int getDuration() {
+		return 1;
+	}
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return "Throw " + this.target.getShortDescription();
+	}
+	
+
+	
+}

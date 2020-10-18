@@ -1,0 +1,43 @@
+package starwars.actions;
+
+import edu.monash.fit2099.simulator.userInterface.MessageRenderer;
+import starwars.SWAction;
+import starwars.SWActor;
+import starwars.SWAffordance;
+import starwars.SWEntityInterface;
+
+public class Thrown extends SWAffordance {
+	
+	public Thrown (SWEntityInterface theTarget, MessageRenderer m) {
+		super(theTarget, m);	
+		priority = 1;
+	}
+
+	@Override
+	public boolean canDo(SWActor a) {
+		// TODO Auto-generated method stub
+		return true;
+	}
+
+	@Override
+	public void act(SWActor a) {
+		//get the neighbor location of the actor
+		
+		
+		
+	}
+
+	@Override
+	public int getDuration() {
+		return 1;
+	}
+
+	@Override
+	public String getDescription() {
+		// TODO Auto-generated method stub
+		return "Throw " + this.target.getShortDescription();
+	}
+	
+
+	
+}

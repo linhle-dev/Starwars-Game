@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="starwars.SWForce"/>
+<fullyQualifiedTypeName name="starwars.entities.actors.Player"/>
+<fullyQualifiedTypeName name="starwars.entities.actors.BenKenobi"/>
+<fullyQualifiedTypeName name="starwars.Team"/>
+<fullyQualifiedTypeName name="starwars.entities.actors.behaviors.Follow"/>
+<fullyQualifiedTypeName name="starwars.SWActor"/>
+<fullyQualifiedTypeName name="starwars.DroidStatus"/>
+<fullyQualifiedTypeName name="edu.monash.fit2099.simulator.space.Direction"/>
+<fullyQualifiedTypeName name="starwars.actions.Move"/>
+<fullyQualifiedTypeName name="starwars.SWActionInterface"/>
+<fullyQualifiedTypeName name="starwars.entities.actors.Droid"/>
+<fullyQualifiedTypeName name="starwars.actions.Own"/>
+<fullyQualifiedTypeName name="starwars.SWEntity"/>
+<fullyQualifiedTypeName name="starwars.actions.Take"/>
+<fullyQualifiedTypeName name="starwars.actions.Leave"/>
+<fullyQualifiedTypeName name="starwars.Capability"/>
+<fullyQualifiedTypeName name="starwars.SWAffordance"/>
+<fullyQualifiedTypeName name="edu.monash.fit2099.simulator.userInterface.MessageRenderer"/>
+<fullyQualifiedTypeName name="starwars.SWEntityInterface"/>
+<fullyQualifiedTypeName name="starwars.actions.Thrown"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="starwars.SWLocation"/>
+<fullyQualifiedTypeName name="starwars.SWWorld"/>
+<fullyQualifiedTypeName name="starwars.actions.Attack"/>
+<fullyQualifiedTypeName name="edu.monash.fit2099.simulator.matter.Affordance"/>
+</qualifiedTypeNameHistroy>
